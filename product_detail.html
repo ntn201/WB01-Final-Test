@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Shop</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <span class="logo">Guitar Shop</span>
+        <ul class="d-flex flex-row align-items-center m-0 p-0">
+            <li class="nav-item">
+                <a href="index.html#on-sale" class="nav-link">On Sale</a>
+            </li>
+            <li class="nav-item">
+                <a href="index.html#best-sellers"class="nav-link">Best Sellers</a>
+            </li>
+            <li class="nav-item">
+                <a href="index.html#new-models" class="nav-link">New Models</a>
+            </li>
+        </ul>
+        <span></span>
+    </nav>
+    <div class="product-page">
+        <img id="product-detail-image" src="https://static.gibson.com/product-images/Epiphone/EPIKWM803/Ebony/PRESS_DR100EB1.jpg" alt="">
+        <div>
+            <div>
+                <h1>Epiphone's Most Popular Acoustic</h1>
+                <span>The Songmaker DR-100 has long been Epiphone's best selling acoustic guitar and has the look, sound, and build quality that first time players and professionals expect when choosing an Epiphone. Featuring a select spruce top, premium tuners, and a mahogany body. Epiphone stands behind every guitar they make with a Limited Lifetime Warranty and Gibson Brands™ Customer Service. Hardshell or EpiLite™ case sold separately. Epiphone - For Every Stage. (Previously called DR-100)</span>
+            </div>
+            <hr class="page-divider w-100">
+            <div>
+                <h3>Finish</h3>
+                <span id="finish-type">Ebony</span>
+                <ul class="finish-selector-container">
+                    <li class="finish-selector selector-active" >
+                        <span id="selector-ebony"></span>
+                    </li>
+                    <li class="finish-selector">
+                        <span id="selector-natural"></span>
+                    </li>
+                </ul>
+            </div>
+            <hr class="page-divider w-100">
+            <div>
+                <span id="total-price">$0</span>
+            </div>
+            <hr class="page-divider w-100">
+            <button id="btn-add-to-cart" class="btn-primary">Add to cart</button>
+        </div>
+    </div>
+    <footer>
+        <div class="shop-address-container">
+            <h3>Our Shop</h3>
+            <ul>
+                <li>Ha Noi, Viet Nam</li>
+                <li>Da Nang, Viet Nam</li>
+                <li>Ho Chi Minh, Viet Nam</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Contact Us</h3>
+            <ul class="contact-container">
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <span>Email: guitarshop@gmail.com</span>
+                </li>
+                <li>
+                    <i class="fas fa-phone"></i>
+                    <span>Phone number: +840123456789</span>
+                </li>
+                <li>
+                    <i class="fab fa-facebook-square"></i>
+                    <span>Guitar Shop</span>
+                </li>
+            </ul>
+        </div>
+        <div class="policy-container">
+            <h3>Policy</h3>
+            <ul>
+                <li>Shipping Policy</li>
+                <li>Refund Policy</li>
+                <li>Terms of service</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="product_detail.js"></script>
+</html>
